@@ -1,0 +1,16 @@
+{
+    "name": "slim4ik_off/vk_easy_sdk",
+    "description": "php library for vk api",
+    "require": {
+      "ext-pdo": "*",
+      "ext-curl": "*",
+      "ext-mbstring": "*",
+      "guzzlehttp/guzzle": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "VkEasySdk\\": "src",
+            "VkEasySdk\\State\\": "states"
+        }
+    }
+}
